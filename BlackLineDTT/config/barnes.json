@@ -1,0 +1,88 @@
+{
+    "target": {
+        "type": "SharePoint",
+        "sharepoint_url": "https://{your-tenant-prefix}.sharepoint.com",
+        "client_credentials": {
+            "client_id": "123456789sdfsdfg",
+            "client_secret": "secret"
+        },
+        "directoryMetadata": {
+            "sharepointBasePath": "/media/william/Tv2/barnes_documents"
+        }
+    },
+    "source": {
+        "instance": "BARNES",
+        "period": 106,
+        "periodfile": "barnes.period.json",
+        "base_url": "https://bginc.na3.blackline.com",
+        "request": {
+            "headers": {
+                "Accept": "application/json;",
+                "Content-Type": "application/json"
+            },
+            "cookies": {
+                "GCLB": "CPKfg_6I1t-yVBAD",
+                "__RequestVerificationToken": "QzsuL40k1lmpJ3qDhZ-YYmJasbxsnvRMnko19A5yhG3iAjW7EKOBF7nwDDLHNKXQp_PAYZhvdDWv_iMMhcDqJ6A17gg1",
+                "__AntiXsrfToken": "06af1f143a32478c892fbec06022a3f5",
+                "ASP.NET_SessionId": "%7b97768c17c5d5466c90a24f3e349089dc%7d",
+                ".BLSIAUTH_4732": "CA13EF1967DAB9B8A2DA7DCD683EB6475D3CE7B2A8B229637F1AA3162B09E8C2BD57C6169E3643AF9E60355180CF613B02AA0967AFB2F2F834B42939F49AECAF57FB24ED1CC930F560A43271B24559DDB28EA6AA1D388183251D3B83F25588B0C66A960529C7E2F51C1E6D61AD384F425BD6DC96E5EEF53C5716D771249B472788CB157C2C5448B0D01C4963303274AFCA6AC2518B678AAA2EAC8C1277E3BF3DF908658ED64167D30458A4E67660BF86B80ADF314EB6D4B24ED9D02A18C4B0FBAAE8235FBC1E207F7380BAE36D1DF014DA8F28763B3B872F68512C69B0CA9A17F20D937CAF8982F77A5B77B86DD613FC157C0F78546F035C021108C9E5656C52018EA5B7869B19BF9D2B6D345396FD273830C3D41A76870B2B62BA2924CE9E8CC700713B3ADA907BDF9EC1E69EDAA87185E2AD8DB76EE2D07176859A713DAA0E658D990925E76CF3B4810BEEA57A72BD5C689AD43220A622DA9A5908DE8325355BFD899C4D3BCBE97DBD0D2968D5AA0C2EBB8C73",
+                ".MIXEDAUTH": "CCC9DA55F2820014A03C1683591C85693006B62F44758381FA01099F446EAB918360386D99119D312DD1CB9339FE3E826481A77733EBD909FACDC03ACE450C53B69F2C33A149B0AD9CF731228BE122FE2ACFB8FA4777DA6A09A5E07C2FC8224426C01C75B9C27ECB7279D8DBBD7FFC439DB1CB36C998936CE0E755104973C6EFD1D1212DC1B2148A1ED3A879CDE07BAA0FA3E95B5169A9D9C9ADE6540233F48E849616778FC012F0A70944E640E6EFEE1BD3E94D48AE205532228B5E4FCBC6F34D3FE9DAD822C17FB5ED17EA2B8D29EA50898991481F3F0B28C3D998FA41621B38099D244C59AE48AC46A12F8BCC5908027A4A3049DE486A4EBED0446740699A9B87988846D2BE2FB350726FC93D29C28F3C4A9DF2B3C586A926D2DF28B6B1ECB0D47A09410188603BEB236D83B9AD9ED89836D14BFEF8CD1871148DF942B1BF9738E9795798DF0C7EFF9C9F50E3CD2E0711A9CC9A3AA89226B6DB15C2D8D1624063DCACB11C0927820CF654B3B211ECD34B068A"
+          }
+        },
+        "sheetView": {
+            "columns": [
+                {
+                    "field": "entityCode"
+                },
+                {
+                    "field": "accountNumber"
+                },
+                {
+                    "field": "accountName"
+                },
+                {
+                    "field": "assignmentID"
+                },
+                {
+                    "field": "assignmentType"
+                },
+                {
+                    "field": "reconciliationId"
+                },
+                {
+                    "field": "childAssignmentId"
+                },
+                {
+                    "field": "certStatusTypeId"
+                },
+                {
+                    "field": "keyAccount"
+                },
+                {
+                    "field": "riskName"
+                },
+                {
+                    "field": "assignedUser1Name"
+                },
+                {
+                    "field": "teamCode"
+                },
+                {
+                    "field": "key3"
+                },
+                {
+                    "field": "currency"
+                },
+                {
+                    "field": "balance_GL"
+                },
+                {
+                    "field": "amountUnidentified"
+                },
+                {
+                    "field": "acctDueDateRole1"
+                }
+            ]
+        }
+    }
+}

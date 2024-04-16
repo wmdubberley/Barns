@@ -1,0 +1,100 @@
+Org Unit ID,Organizational Unit,Level,Parent
+CONSOL,Consolidated,4,
+ALGV,Vacations,3,CONSOL
+AMR,AMResorts,3,CONSOL
+AMS,Amstar,3,CONSOL
+CORP,Corporate,3,CONSOL
+TRI,Trisept,3,CONSOL
+UVC,UVC,3,CONSOL
+008F,ALG Tax - FIN 48,2,CORP
+6B00,UVC Europe GmbH,2,UVC
+7700,Trisept Solutions (SAP),2,TRI
+AMRINTL,AMResort - Caribbean,2,AMR
+AMRUS,AMResorts - US,2,AMR
+AMSMX,Amstar - MX,2,AMS
+AV,Apple Vacations,2,ALGV
+CAN,Canada Point of Sale (AX),2,ALGV
+CC,Cheap Caribbean Group,2,ALGV
+TI,Travel Impressions,2,ALGV
+TIEUR,Travel Impressions - Europe,2,ALGV
+TIMX,Travel Impressions - MX,2,ALGV
+TIUS,Travel Impressions - US,2,ALGV
+VAX,VAX Vacation Access Worldwide,2,TRI
+VEN,"VAX VacationAccess Engagement Group, Inc.",2,TRI
+008D,"ALG Servicios Financerios MX, SOFOM ENR",1,CORP
+008E,ALG HQ Mexico S de RL CV,1,CORP
+10,Belmullet,1,CORP
+1000,Apple Vacation,1,AV
+1100,KC Data,1,CORP
+1900,Corporate Expense,1,CORP
+1910,DSS,1,CORP
+20,Coryn Group,1,CORP
+2000,Travel Impressions - US,1,TIUS
+2100,Viajes Mexico,1,TIMX
+2200,Viajes Mexico Servicios,1,TIMX
+2300,Tide Netherlands,1,TIEUR
+2400,Tide Netherlands Cooperatief,1,TIEUR
+2500,Travel Impressions - UK,1,TIEUR
+30,ALG Integrated Holdings,1,CORP
+3000,Cheap Caribbean,1,CC
+3300,BeachBound,1,CC
+40,Casablanca US Holdings,1,CORP
+4000,Amstar Mexico,1,AMSMX
+4100,Amstar Travel Services,1,AMSMX
+4200,Amstar Jamaica,1,AMS
+4300,Amstar DMC,1,AMS
+4400,Amstar Costa Rica,1,AMS
+4500,Amstar Hawaii,1,AMS
+4700,Amstar Operaciones DMC MX,1,AMSMX
+4800,Amstar Mktg Services LLC,1,AMS
+50,Casablanca Global Holdings,1,CORP
+5000,AMResorts Holdings,1,AMRUS
+5100,AMResorts Mexico,1,AMRINTL
+5200,AMResorts Management Nevis,1,AMRUS
+5300,AMResorts Management Dominicana,1,AMRINTL
+5310,"AMR Management DR, SRL",1,AMRINTL
+5400,AMResorts Holdings Corp,1,AMRUS
+5500,AMResorts Jamaica,1,AMRINTL
+5600,AMResorts Caribe,1,AMRINTL
+5700,AMResorts LP,1,AMRUS
+5800,AMResorts Collections,1,AMRUS
+5900,AMResorts Direct,1,AMRINTL
+5925,AMR GP Holdings,1,AMRUS
+5B00,AMR Operaciones MX,1,AMRINTL
+5C00,AMResorts Marketing Panama,1,AMRUS
+5D00,AMResorts Management Panama,1,AMRUS
+5E00,AMR Costa Rica,1,AMRINTL
+5F00,AMR Curacao,1,AMRINTL
+5G00,AMR Spain,1,AMR
+5H00,AMR Administracion Hotel,1,AMRINTL
+5J00,AMR Operaciones DR SRL,1,AMRINTL
+5K01,AMR Colombia SAS,1,AMRINTL
+5L00,AMR Direct MX,1,AMRINTL
+60,Casablanca Global Intermediate,1,CORP
+6000,UVC GAAP,1,UVC
+6100,Club de Descuentos Vacacionales MX,1,UVC
+6200,ALG Servicios Corporativos,1,UVC
+6300,Discount Vacations Limited,1,UVC
+6400,Club de Services Vacacionales,1,UVC
+6500,Club de Descuentos Vacacionales DR,1,UVC
+6600,AMR Club de Vantas Vacacionales SRL,1,UVC
+6700,UVC Unlimited Vacation Club MX,1,UVC
+6800,UVC Global Panama,1,UVC
+6900,UVC Sales Panama,1,UVC
+7000,Funjet,1,ALGV
+7100,Blue Sky Tours,1,ALGV
+7200,Southwest Vacations,1,ALGV
+7300,United Vacations,1,ALGV
+7400,Mark International,1,ALGV
+7500,Global Booking Solutions,1,ALGV
+7800,AMR Direct Packages,1,ALGV
+7900,VAX Hotels,1,ALGV
+7C00,Global Booking Solutions of Canada,1,ALGV
+80,Distribution Holdings,1,CORP
+90,Casablanca Services LLC,1,CORP
+AMD,AMR Direct Packaging (AX),1,ALGV
+BST,Blue Sky Tours (AX),1,ALGV
+FHI,"Funway Holidays International, Inc.",1,TIEUR
+LEN,"LME Engagement Group, Inc.",1,ALGV
+MTC,The Mark Travel Corporation (AX),1,ALGV
+TGT,TransGlobal Vacations,1,ALGV

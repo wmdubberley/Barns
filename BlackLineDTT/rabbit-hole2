@@ -1,0 +1,79 @@
+SESSION=$1
+
+tmux kill-session -t $SESSION
+tmux new-session -d -s $SESSION
+tmux rename-window Rabbit_1
+
+tmux split-window -h -t $SESSION:1
+tmux split-window -h -t $SESSION:1.1
+tmux split-window -h -t $SESSION:1.3
+tmux split-window -v -t $SESSION:1.1
+tmux split-window -v -t $SESSION:1.2
+tmux split-window -v -t $SESSION:1.1
+tmux split-window -v -t $SESSION:1.5
+tmux split-window -v -t $SESSION:1.6
+tmux split-window -v -t $SESSION:1.5
+tmux split-window -v -t $SESSION:1.9
+tmux split-window -v -t $SESSION:1.10
+tmux split-window -v -t $SESSION:1.9
+
+
+tmux send-keys -t $SESSION:1.1  "python3 main2.py hyatt 158" ENTER
+tmux send-keys -t $SESSION:1.2  "python3 main2.py hyatt 157" ENTER
+tmux send-keys -t $SESSION:1.3  "python3 main2.py hyattJS 155" ENTER
+tmux send-keys -t $SESSION:1.4  "python3 main2.py hyattJS 154" ENTER
+tmux send-keys -t $SESSION:1.5  "python3 main2.py hyattJS 153" ENTER
+tmux send-keys -t $SESSION:1.6  "python3 main2.py hyattJS 152" ENTER
+tmux send-keys -t $SESSION:1.7  "python3 main2.py hyattJS 151" ENTER
+tmux send-keys -t $SESSION:1.8  "python3 main2.py hyattJS 150" ENTER
+tmux send-keys -t $SESSION:1.9  "python3 main2.py hyattJS 149" ENTER
+tmux send-keys -t $SESSION:1.10 "python3 main2.py hyattJS 148" ENTER
+tmux send-keys -t $SESSION:1.11 "python3 main2.py hyattJS 147" ENTER
+tmux send-keys -t $SESSION:1.12 "python3 main2.py hyattJS 146" ENTER
+tmux send-keys -t $SESSION:1.13 "python3 main2.py hyattJS 145" ENTER
+
+tmux select-layout tiled
+# tmux new-window 
+# tmux rename-window -t 2 rabbit_2
+# tmux split-window -h -t $SESSION:2
+# tmux split-window -h -t $SESSION:2.1
+# tmux split-window -h -t $SESSION:2.3
+# tmux split-window -v -t $SESSION:2.1
+# tmux split-window -v -t $SESSION:2.2
+# tmux split-window -v -t $SESSION:2.1
+# tmux split-window -v -t $SESSION:2.5
+# tmux split-window -v -t $SESSION:2.6
+# tmux split-window -v -t $SESSION:2.5
+# tmux split-window -v -t $SESSION:2.9
+# tmux split-window -v -t $SESSION:2.10
+# tmux split-window -v -t $SESSION:2.9
+# tmux split-window -v -t $SESSION:2.13
+# tmux split-window -v -t $SESSION:2.14
+# tmux split-window -v -t $SESSION:2.13
+# tmux split-window -h -t $SESSION:2.13
+# tmux split-window -h -t $SESSION:2.15
+# tmux split-window -h -t $SESSION:2.17
+# tmux split-window -h -t $SESSION:2.19
+# tmux send-keys -t $SESSION:2.1  "python3 main2.py hyatt 134" ENTER
+# tmux send-keys -t $SESSION:2.2  "python3 main2.py hyatt 133" ENTER
+# tmux send-keys -t $SESSION:2.3  "python3 main2.py hyatt 131" ENTER
+# tmux send-keys -t $SESSION:2.4  "python3 main2.py hyatt 130" ENTER
+# tmux send-keys -t $SESSION:2.5  "python3 main2.py hyatt 129" ENTER
+# tmux send-keys -t $SESSION:2.6  "python3 main2.py hyatt 128" ENTER
+# tmux send-keys -t $SESSION:2.7  "python3 main2.py hyatt 127" ENTER
+# tmux send-keys -t $SESSION:2.8  "python3 main2.py hyatt 126" ENTER
+# tmux send-keys -t $SESSION:2.9  "python3 main2.py hyatt 125" ENTER
+# tmux send-keys -t $SESSION:2.10 "python3 main2.py hyatt 124" ENTER
+# tmux send-keys -t $SESSION:2.11 "python3 main2.py hyatt 123" ENTER
+# tmux send-keys -t $SESSION:2.12 "python3 main2.py hyatt 122" ENTER
+# tmux send-keys -t $SESSION:2.13 "python3 main2.py hyatt 121" ENTER
+# tmux send-keys -t $SESSION:2.14 "python3 main2.py hyatt 119" ENTER
+# tmux send-keys -t $SESSION:2.15 "python3 main2.py hyatt 118" ENTER
+# tmux send-keys -t $SESSION:2.16 "python3 main2.py hyatt 117" ENTER
+# tmux send-keys -t $SESSION:2.17 "python3 main2.py hyatt 116" ENTER
+# tmux send-keys -t $SESSION:2.18 "python3 main2.py hyatt 115" ENTER
+# tmux send-keys -t $SESSION:2.19 "python3 main2.py hyatt 114" ENTER
+# tmux send-keys -t $SESSION:2.20 "python3 main2.py hyatt 113" ENTER
+# tmux select-layout tiled
+tmux attach-session -t $SESSION
+

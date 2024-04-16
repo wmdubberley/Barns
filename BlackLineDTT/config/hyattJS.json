@@ -1,0 +1,141 @@
+{
+    "target": {
+        "type": "SharePoint",
+        "sharepoint_url": "https://{your-tenant-prefix}.sharepoint.com",
+        "client_credentials": {
+            "client_id": "123456789sdfsdfg",
+            "client_secret": "secret"
+        },
+        "directoryMetadata": {
+            "sharepointBasePath": "/mnt/main_Movies/Blackline_documents"
+        }
+    },
+    "source": {
+        "instance": "HYATT",
+        "period": 82,
+        "periodfile": "hyatt.period.json",
+        "base_url": "https://hyatthotels.us2.blackline.com",
+        "request": {
+            "headers": {
+                "Accept": "application/json;",
+                "Content-Type": "application/json"
+            },
+            "cookies": {
+                "BLSIAPPEN": "!cmI2J/9HKt+DCOdmiOBa4m4YLrxynHLc0+TU9yjDi9qL8wH9letTXt7SzoBJ7TqVR00G42Jbp3oAp/k=",
+                "FedAuth": "77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VjdXJpdHlDb250ZXh0VG9rZW4gcDE6SWQ9Il8xNzhjZWFjMC00Y2RiLTQ4YWYtYTQ4Yy05OTlhODQ0YzkxNDMtMTEyODE4M0YzMDBBNkM3OUQwNkQ4RDY3MDM2QjgxNEEiIHhtbG5zOnAxPSJodHRwOi8vZG9jcy5vYXNpcy1vcGVuLm9yZy93c3MvMjAwNC8wMS9vYXNpcy0yMDA0MDEtd3NzLXdzc2VjdXJpdHktdXRpbGl0eS0xLjAueHNkIiB4bWxucz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3Mtc3gvd3Mtc2VjdXJlY29udmVyc2F0aW9uLzIwMDUxMiI+PElkZW50aWZpZXI+dXJuOnV1aWQ6ZGExN2U4ZjMtMmYwYy00ZDliLWIxOWItNjk3N2E0NTA2MTRkPC9JZGVudGlmaWVyPjxDb29raWUgeG1sbnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwNi8wNS9zZWN1cml0eSI+QUFJQUFGVm5hYVVMdFF0ekIvSmtoSDdCRUJqUG5lTmNNdTFaUWVHZ0lBdVJYQ2ZXYWhHZE9mOW1DMk1BcFZhL05VaHRVQzBadWxXQ09aQnlRTlQ4dUxLUkloYmRSN3loUHppMmMzZnZFdjlnMk0rM3RvVDZ3SGpnMGhIT0xzRHN2MTJxSzMvMGNCclhxWVQ4REVTbEFsUXlPMTRHRU9ldDBmMUF3VWRnUnVJRE01aFR3Q1p1bVNXVzBFcWFRRTB3ZlczUGprQkR6dks2bHJCV3dlOTVUV3lxTXdzNCtEQnR4aEZpbXZjaGREQVRyMElqWndiR3FTaksyTFRPZFVldmp2ZFd5cHdHS3dSQzNNLy9iSnprU3p1UDZ6NCtkd3lYbURwWDNRaS9jR0Q5eFRORWRjSUFXaFIvV0xDY3VxUEx1N2ZYbi94NFFsVkZQUVFYcGtkWjRjbk5NK1JDM0xEVFhiczV1WGNiMkJsTjVHN3FkL0pLRngxa1Z4d2xzVWR0VG5OZ0E3cUhMcnhkcit3aFJKZ1FRYXpqTEJQZDBGMTROU29OSEhlbCtpaExhZERlVlkzZHdCVEtnTmFEK2xGMkVVV0JNU0NSZFZKbEpSZXJicHpHdEsxTkZYUkQ1Qk42TGdCNWJpTjYra2paRG5nZDlzNjIvWUUrSm9wTzM4ekc5eFNCUncyTTBvbmhaZitaL25xNC9OUFgwdzdWSXRQNE1YMnJLS1hCZnk3eE8zRXpSRVczUUpKS3U2WXRGTEhKSUVSOFFGQ1R2S3BuNmpYNWdPNXJhbVVvUkxaSEdOT25DNmR0a3NuYmIzQ1ZkNG1Bdkp5bjU0SXE0OWZzQ3ZvWks2d2xLNEZxSVl5YUkrQW1oSVdFaUhRcXV2aWt4VGNjNnJyd1g4NFlNbmZ5eEtzRWtuWkZqRzE1d2paUDZ4SGFEZHVGNzVxZFk4T29oMndiYVV1c241cm8wekVBQWdBQVFaSUtDYjFTUmQ2OVBSeFR5Tk0zUmxncElxY2drZTBPb2JqeldKaEkxT3lvTVFpTzZMVlI3TVJxMVZZVjJDbHp3Q1hRa2dMSXpRTi9iK1RCREZ4dmdLSGlERGxSSkhHZzU1cVdoTk9uc0psQktkN2hlZzcxYy9IdStxWWtnQ0ZFVlk1RFNJcStKNFN3Q3V5NVROdU5wQUU0K1BXKytsZ1ljZCtFUUF0S3NiaGcySTZZSWF0NTEzbjVaaFhGdThqVmRGUG8vUDloaUVJODYwMk1XUkFTeW50c0tjeUVJc2JpS1UwcGdmMnp3VWtZd1ovSUhGanBMR2pmZ1ZIb2M2RmpKTnJ4bFBOY3dDTEZmb08yb21LVTM0RFdrRko0YUJhRUVscTZ3YkFYNXEyb3ozUmxqRklkN3pHWDY4SmxMWGNmY0dR",
+                "FedAuth1": "aWlkZ0dSelpIdVovVzhIQ0tEZWZ3Qm8rZTA5VTNLUWhsR3lmWC9JTVJLZFlSTE82SzFWMHBnNG9WQ2twelFHWXl2L2M3N0d5RzBoZFNOR3A2NHBJcUVFZTNTZDgrekhzekpIdGtVNDlsZkppRy9Oa2dJL2x1eUFrTEcvblU1L1EyM0w1cWVkUUtjSXB0WDZZZ0RYNzBIcE5BRlpVNGFkVlRtTnhybkk5Zml2dWkrL2xwa2dseFl0ejVpRnE2cTlNVHI4OXkyWkFaQUN5enAvWDM3Yjk5Q2ZOWUhPOVd0VnlEcUhVbjR3dFprYm0xL0crL3pSN09TMHU5R3IxZ2Q4V3IwSUdpVmNlWmV5SUNtMFpFZG1YRzgyMXFXYmcza3psQlo3NVYzQlNMYTFHTHVVS1laY0RaRTdYR3p2YUV6a3g2WWRHZjVUTTJER2Z2b3NxWXIwdmVsVFh3K0Mvci9rWHpHRmpBc3BuUUFnQUFFTDFlWUdCV1N1YzNnblZNUi9qS2Q4T2tjaHFHcG1ZQ0ZSdEoyM3YzYVpObTRTeDhtUWZZY1F1ZFNudmZkLzliZnZsV05JMTNxVS9GUEh6NHdodjFrbGEwM0xUNXlyUVR5Sm1oTStiSUF6VGRmT1h4K0Z6WFowMXhqK2VnTEhjU2tQa3ByS2dFYXdWcXNIajlKcmFlRGs2cXpNU2ZzYmRVRkNnVVBzQko4bUhLUHZqb2FUYW1QSGlQaFJ3ZFYxQnp6eDRVdGxMenJXT3lYUTBIZ2F6eXErNEwxWU9YU281S1dKcWJFZFpMcHJFcVRQYnBuSzIxUVVqcGpOU3JRL1FGaUFRZlNaR3J6UWlLbmR6SFdwSmUwcWFkdHo0S292V3IyYW1mNVQwNklkMWlVUWYvRmZQb2xQeVRsN2E3ZkVCbi9CSkRzZGcreTFoMmU5YjZTVU8xSDdRamRkcUVNMEFiVTV5a2E0Q1Fnenc5L2dxRW1pSmcwcGh6NGFVWG9YU0dxWk1uaXlhREw4V2dFRnVMQzlXdTVYVGo5Y3dJY3BwNlNnWlBiTndxaXlUMFI3QWtFbVJhMVhIQng2d2Y4TmNEQXRYemUxR2x3Sit0YmU4NEdPYzF4cFpVSlZyVzlvTUoyeTM5V1J1N21XOTY3U2NFMXM0TVdLV0RLZzgyWnhnRWwyTXNZMGlxNkFHTlpwRWc2MWg0ZjU0ZkJrdzNKTW00K1lWV0F6ZjF5ZDZMTjVBTVVYUTYyTm0xZU5IQjA0WFdnVGs2RWRnc1VGU3gwVW4zQ1Zrc3NEdERMWmIxVmE1TDd6TzNpeWJIdFFXK0tjbitkVE1rM08vQWxPN3A2UXJCYUEyMFgrR1VmVTIwRmZKd2VhOUNVWWY2Wm1xbzg1ZVZseThBTlYxdk1XT2RRUVkwZnkybVpOR2lDMEdUUTQrTG5ncmhCd3lONzgzZWxXRmFTc1JZeDNCaGZYNW01V1FnL1hXRXNIeWRRRnBRK3lranZDMjZvejhieWwxQ3pTblg5QWNYa1Vjemc4UVU2SGc4UjhQQ1MzZ3EyalZvOFN3eEErcWl4aVA2S0lhZjMwZUJBcjZvWWNSWkRFMEJPSkpQd3VXZkVQMXFxcUlRcEh2T1JTaGlPRTd2Y09jdFVkZGwvemxGWjhhOUZCVEdtbVVkOHZrT2NobmxXMnNuV01sSkJWZ3lQM2Q5aXEwSnJ5TXdQcXRWT0tEMFdyU2cvY241LzBRc1RXZEVacUZEeHNhWDdGeWVWVmxrY2c1Z3E4azY8L0Nvb2tpZT48L1NlY3VyaXR5Q29udGV4dFRva2VuPg==",
+                "ASP.NET_SessionId": "mjpwh4jxcnfzkort2smu1out",
+                ".MIXEDAUTH": "2E31D86D8EC46A1760302306B4BC19BF51C4A152E3ED55DE0F69C2436685A063F497C099C785C732D395D1AB31B6CDAD860B9A64BE2E3CBD00B6B0C060ABE16F86BD99924A283A5FBD89A0D538DA60256AE8D561B3F452CDC50D70ABB845540AA2AB4E1BB3A78DA3277435A34C53DCF7A452BE1730DB46331D88DBB7113CF638FB584C67426C338622D08BA60E310B50377BDA28F83512681E79DC3E83C76A780920F9B3EE733C53D85862720F61EAEA0D563C2D9873F7B76FD477ACCD590A42A1104B9042152DDB56E6DE7BC6B3422F25C8F4A840511C775B6A9CCD3C0581404D09B941856BD4D463BE4854874D6EBAA03FCB2B68AE2B5D3D03AAA321AE646F97DB0FEC95FAC1DA730A8BCEE63EEFAEB7E3CBBBACED56862274F32D0DAE6A0476EF69E5497F260651B284B9EC27917C4042A6FC72BE611106B165127574C6BB625C3BA8",
+                ".BLSIAUTH_711": "CBB8DB69CCC325A7293B54FCF11C1A4DA280D99D54F8E0CFB2F952B943C50766CC490278553EB1EBCB2132EE3071A745EDE8845B69BA99EDA6068F5955AE56912C8097EE123D8B376DB3703E10F419BC0491FA988B1073D91A64738BFBF54EE5F9A32A1A98F2C6CA8D60CAC2C9DB492B177B930EEF07127CA72D83B37B36F49302C32C233E2AED068793A630C79A4A53A305DE0038950E5CD35D466FB0AE995379CB094B8F30A1A9477D87B3D61372E67E20ED7B8FE8083491C1B1C9B570EAC502071A07B06938AA30DD8308CA4874F4504EEC65B05DF5D8CB4218C2729F7AA4EB86619DB89AE49CC3FBEC20C90E39B92D6606DD2D529FB57886FAA5BD8378224CB9BDF0502974A61B4ADC9EEC0C3B39DF1F03FF537A1E57D71960E8C0D90BAF1E97381BC5AD5C3DC9D7306D45942AE55A096F4E927C5BA8E790A0E41821A8CF2B76D7819EE386E8423CDABFA04EBD82460FC7CD88976E13C4E72C71344BF01AF086A3EE",
+                "__AntiXsrfToken": "cffcbe21dc4b4c33a34e6097d0a60f4f",
+                "__RequestVerificationToken": "vFH8dKgd0LoymkJqY_jbhcxiVLXjcxCKRIQnEbBC5oOfJa9k4g8RG1yaStPdSD2JDH789ilwITLWSS8-9rBl9pZy20k1"
+            }
+        },
+        "sheetView": {
+            "columns": [
+                {
+                    "field": "entityCode"
+                },
+                {
+                    "field": "accountNumber"
+                },
+                {
+                    "field": "accountName"
+                },
+                {
+                    "field": "assignmentID"
+                },
+                {
+                    "field": "assignmentType"
+                },
+                {
+                    "field": "reconciliationId"
+                },
+                {
+                    "field": "childAssignmentId"
+                },
+                {
+                    "field": "certStatusTypeId"
+                },
+                {
+                    "field": "keyAccount"
+                },
+                {
+                    "field": "riskName"
+                },
+                {
+                    "field": "assignedUser1Name"
+                },
+                {
+                    "field": "teamCode"
+                },
+                {
+                    "field": "key3"
+                },
+                {
+                    "field": "key4"
+                },
+                {
+                    "field": "key5"
+                },
+                {
+                    "field": "key6"
+                },
+                {
+                    "field": "key7"
+                },
+                {
+                    "field": "key8"
+                },
+                {
+                    "field": "currency"
+                },
+                {
+                    "field": "balance_GL"
+                },
+                {
+                    "field": "amountUnidentified"
+                },
+                {
+                    "field": "acctDueDateRole1"
+                }
+            ],
+            "filters": {
+                "conditionalOp": "OR",
+                "filters": [
+                    {
+                        "conditionalOp": "AND",
+                        "filters": [
+                            {
+                                "op": "notIn",
+                                "field": "certStatusTypeId",
+                                "value": [
+                                    "100",
+                                    "-1",
+                                    "-100"
+                                ],
+                                "text": [
+                                    "System Certified",
+                                    "Not Prepared",
+                                    "Not Required"
+                                ]
+                            },
+                            {
+                                "op": "equal",
+                                "field": "balance_GL",
+                                "value": 0,
+                                "text": "0.00"
+                            }
+                        ]
+                    },
+                    {
+                        "op": "greaterThan",
+                        "field": "balance_GL",
+                        "value": 0,
+                        "text": "0.00"
+                    }
+                ]
+            }
+        }
+    }
+}
